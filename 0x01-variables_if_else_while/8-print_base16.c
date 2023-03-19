@@ -12,12 +12,12 @@ int main(void)
 	n = 0;
 	l = 'a';
 	while
-		(n < 10); {
+		(n < 10) {
 			putchar(n + '0');
 			n++;
 		}
 	while
-		(l <= 'f'); {
+		(l <= 'f') {
 			putchar(l);
 			l++;
 		}
