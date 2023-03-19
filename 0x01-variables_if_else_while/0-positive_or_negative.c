@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Determine if a number is positive, zero or negative.
- * Description: 'To identifty the value of n'
- * Return : Always 0 (Success)
+ * main - Program for random number
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
