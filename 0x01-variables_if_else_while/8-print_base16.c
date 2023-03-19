@@ -9,7 +9,7 @@ int main(void)
 	int n;
 	char l;
 
-	n = '0';
+	n = 0;
 	l = 'a';
 	while
 		(n < 10); {
@@ -17,7 +17,7 @@ int main(void)
 			n++;
 		}
 	while
-		(l < 'f'); {
+		(l <= 'f'); {
 			putchar(l);
 			l++;
 		}
