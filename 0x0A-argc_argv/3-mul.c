@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * _atoi- multiplies two numbers
+ * _atoi- converts str to int
  * @s: The string
- * Return: 1
+ * Return: int converted from string
  */
 int _atoi(char *s)
 {
@@ -23,7 +23,7 @@ int _atoi(char *s)
 	{
 		if (s[i] == '-')
 			++d;
-		if (s[i] >= '0' && s[i] <= '0')
+		if (s[i] >= '0' && s[i] <= '9')
 		{
 			digit = s[i] - '0';
 			if (d % 2)
