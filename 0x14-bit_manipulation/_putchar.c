@@ -5,9 +5,9 @@
 /**
  * _putchar - prints character ito std output
  * @c: The character
- * Return: c
+ * Return: on success 1, on error -1, errno is set appropriately
  */
 int _putchar(char c)
 {
-	return (c);
+	return (write(1, &c, 1));
 }
